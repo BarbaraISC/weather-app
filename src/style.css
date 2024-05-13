@@ -16,3 +16,40 @@ header {
   border-bottom: 1px solid #f9f7fe;
   padding-bottom: 30px;
 }
+
+.form-input {
+  background-color: #f9f7fe;
+  border: none;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
+}
+
+.form-button {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: #1187ac;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  line-height: 1;
+  border-radius: 5px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 12px;
+}
+
+a {
+  color: #1187ac;
+}
