@@ -1,6 +1,7 @@
 body {
   background-image: url("background-image.jpg");
   background-size: cover;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -52,4 +53,45 @@ footer {
 
 a {
   color: #1187ac;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  padding: 30px 0;
+}
+
+.city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.details {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(39, 33, 66, 0.6);
+}
+
+.temperature-container {
+  display: flex;
+}
+
+.current-temperature {
+  font-size: 88px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.icon {
+  margin-top: 22px;
+  font-size: 44px;
+}
+
+.unit {
+  margin-top: 16px;
+  font-size: 28px;
 }
