@@ -15,12 +15,13 @@
   <body>
     <div class="container">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
             required
             class="form-input"
+            id="form-input"
           />
           <input type="submit" value="Search" class="form-button" />
         </form>
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="city">Coimbra</h1>
+            <h1 class="city" id="city">Coimbra</h1>
             <p class="details">
               Friday 10:35, clear sky<br />
               Humidity: <strong>51%</strong>, Wind: <strong>3.6km/h</strong>
@@ -56,5 +57,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
