@@ -39,6 +39,10 @@ header {
   border-radius: 5px;
 }
 
+.form-button:hover {
+  cursor: pointer;
+}
+
 .search-form {
   display: flex;
   justify-content: space-evenly;
@@ -83,15 +87,15 @@ main {
 .current-temperature {
   font-size: 88px;
   font-weight: bold;
-  margin-left: 10px;
+  line-height: 88px;
 }
 
 .icon {
-  margin-top: 22px;
-  font-size: 44px;
+  width: 88px;
+  height: 88px;
 }
 
 .unit {
-  margin-top: 16px;
+  margin-top: 8px;
   font-size: 28px;
 }
