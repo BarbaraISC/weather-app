@@ -90,9 +90,8 @@ main {
   line-height: 88px;
 }
 
-.icon {
+.weather-forecast-icon {
   width: 88px;
-  height: 88px;
 }
 
 .unit {
@@ -101,8 +100,9 @@ main {
 }
 
 .weather-forecast {
-  margin-top: 20px;
-  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .weather-forecast-date {
@@ -111,8 +111,13 @@ main {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+  display: flex;
+  justify-content: center;
 }
 
+.weather-forecast-day {
+  text-align: center;
+}
 .temperature-min {
   opacity: 0.5;
 }
